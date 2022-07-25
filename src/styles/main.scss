@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+
+@import "./navbar.scss";
+
+body {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  background: url("../../public/img/Johnny-Harpoon-Cover3.png") no-repeat center
+    center fixed;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+h1 {
+  margin: 0;
+}
