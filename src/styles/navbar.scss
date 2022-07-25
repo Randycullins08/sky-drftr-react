@@ -1,16 +1,16 @@
 .navbar-container {
-  // height: 10vh;
-  // width: 100%;
-  // background-color: red;
-  // display: flex;
-  // justify-content: space-between;
-  // align-items: center;
+  .navbar-links-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 
-  // .logo-wrapper {
-  //   height: 60%;
-  //   margin-left: 1em;
-  //   img {
-  //     height: 100%;
-  //   }
-  // }
+    h2 {
+      margin: 1em 1em;
+
+      &:hover {
+        color: #000;
+      }
+    }
+  }
 }
