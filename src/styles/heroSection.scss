@@ -1,6 +1,6 @@
 .hero-section-container {
   background-color: rgba(255, 255, 255, 0.9);
-  height: 60vh;
+  height: 45vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -8,8 +8,9 @@
   align-items: center;
 
   img {
-    height: 80%;
-    width: 80%;
+    height: 70%;
+    width: 70%;
+    margin-bottom: 1em;
   }
 
   .social-links-wrapper {
@@ -17,7 +18,7 @@
 
     .fab {
       margin: 0 1em;
-      font-size: 2.5em;
+      font-size: 2em;
       color: rgba(0, 0, 0, 0.5);
 
       &:hover {
@@ -32,6 +33,10 @@
   .hero-section-container {
     height: 100%;
     padding-bottom: 2em;
+
+    img {
+      margin: 0;
+    }
 
     .social-links-wrapper {
       .fab {
