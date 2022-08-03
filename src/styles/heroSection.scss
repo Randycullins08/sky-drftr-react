@@ -20,10 +20,12 @@
       margin: 0 1em;
       font-size: 2em;
       color: rgba(0, 0, 0, 0.5);
+      transition: transform 0.2s;
 
       &:hover {
-        color: rgba(0, 0, 0, 0.9);
+        color: rgb(32, 37, 92);
         cursor: pointer;
+        transform: scale(1.2);
       }
     }
   }

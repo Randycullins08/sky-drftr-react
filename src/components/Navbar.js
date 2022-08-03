@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 export default function Navbar() {
-  const [toggle, setToggle] = useState(true);
+  const [toggle, setToggle] = useState(false);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
   const toggleNav = () => {
