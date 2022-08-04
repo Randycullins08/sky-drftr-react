@@ -1,0 +1,26 @@
+.music-videos-container {
+  width: 100%;
+  height: 220vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .first-video-wrapper {
+    @include flexCenter;
+    @include videoStyles;
+    margin: 2em;
+  }
+
+  .second-video-wrapper {
+    @include flexCenter;
+    @include videoStyles;
+    margin: 2em;
+  }
+
+  .third-video-wrapper {
+    @include flexCenter;
+    @include videoStyles;
+    margin: 2em;
+  }
+}

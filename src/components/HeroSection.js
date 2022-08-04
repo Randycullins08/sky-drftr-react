@@ -3,10 +3,12 @@ import { Link } from "react-router-dom";
 export default function HeroSection() {
   return (
     <div className="hero-section-container">
-      <img
-        src="/img/SKYDRFTR-LOGO-COSMIC-W-TRANSPARENT-BG.png"
-        alt="band logo"
-      />
+      <div className="logo-wrapper">
+        <img
+          src="/img/SKYDRFTR-LOGO-COSMIC-W-TRANSPARENT-BG.png"
+          alt="band logo"
+        />
+      </div>
 
       <div className="social-links-wrapper">
         <Link

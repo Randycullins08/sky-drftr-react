@@ -1,3 +1,19 @@
+@mixin videoStyles {
+  width: 80%;
+  height: 80%;
+  iframe {
+    width: 80%;
+    height: 100%;
+    border-radius: 20px;
+  }
+}
+
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @keyframes fadeInAnimation {
   0% {
     opacity: 0;
