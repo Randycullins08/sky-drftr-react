@@ -5,9 +5,9 @@ export default function MusicVideos() {
         <iframe
           src="https://www.youtube.com/embed/ZY2CYobRAa8"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </div>
 
@@ -15,9 +15,9 @@ export default function MusicVideos() {
         <iframe
           src="https://www.youtube.com/embed/Br7ehwUTSzg"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </div>
 
@@ -25,9 +25,9 @@ export default function MusicVideos() {
         <iframe
           src="https://www.youtube.com/embed/4vZcIK809DU"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </div>
     </div>

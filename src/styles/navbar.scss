@@ -9,9 +9,11 @@
 
     h2 {
       margin: 1em 1em 0;
+      transition: transform 0.2s;
 
       &:hover {
-        color: rgba(0, 0, 0, 0.9);
+        color: rgb(32, 37, 92);
+        transform: scale(1.4);
         cursor: pointer;
       }
     }

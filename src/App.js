@@ -2,6 +2,9 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import AlbumBio from "./components/AlbumBio";
 import MusicVideos from "./components/MusicVideos";
+import ConcertImgSlider from "./components/ConcertImgSlider";
+
+import { concertImages } from "./sliderData/concertImages";
 
 function App() {
   return (
@@ -10,6 +13,7 @@ function App() {
       <HeroSection />
       <AlbumBio />
       <MusicVideos />
+      <ConcertImgSlider slides={concertImages} />
     </div>
   );
 }
