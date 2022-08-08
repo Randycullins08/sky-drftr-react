@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function HeroSection() {
   return (
-    <div className="hero-section-container">
+    <div className="hero-section-container" id="home">
       <div className="logo-wrapper">
         <img
           src="/img/SKYDRFTR-LOGO-COSMIC-W-TRANSPARENT-BG.png"

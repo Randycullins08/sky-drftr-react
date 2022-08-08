@@ -1,6 +1,6 @@
 export default function SpotifyPlayer() {
   return (
-    <div className="spotify-player-container">
+    <div className="spotify-player-container" id="music">
       <div className="spotify-player-wrapper">
         <iframe
           src="https://open.spotify.com/embed/album/6W7WiVKzeSltRdJwT1x9WF?utm_source=generator"

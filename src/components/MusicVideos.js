@@ -1,6 +1,6 @@
 export default function MusicVideos() {
   return (
-    <div className="music-videos-container">
+    <div className="music-videos-container" id="videos">
       <div className="first-video-wrapper">
         <iframe
           src="https://www.youtube.com/embed/ZY2CYobRAa8"

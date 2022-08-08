@@ -18,7 +18,7 @@ export default function FlyerImgSlider({ shows }) {
   }
 
   return (
-    <div className="slider">
+    <div className="slider" id="shows">
       <i className="fas fa-angle-left" onClick={prevSlide}></i>
       <i className="fas fa-angle-right" onClick={nextSlide}></i>
       {flyerImages.map((slide, index) => {
