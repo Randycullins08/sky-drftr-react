@@ -5,8 +5,10 @@ import MusicVideos from "./components/MusicVideos";
 import ConcertImgSlider from "./components/ConcertImgSlider";
 import BandBio from "./components/BandBio";
 import SpotifyPlayer from "./components/SpotifyPlayer";
+import FlyerImgSlider from "./components/FlyerImgSlider";
 
 import { concertImages } from "./sliderData/concertImages";
+import { flyerImages } from "./sliderData/flyerImages";
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
       <BandBio />
       <ConcertImgSlider slides={concertImages} />
       <SpotifyPlayer />
+      <FlyerImgSlider shows={flyerImages} />
     </div>
   );
 }
