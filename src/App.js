@@ -4,6 +4,7 @@ import AlbumBio from "./components/AlbumBio";
 import MusicVideos from "./components/MusicVideos";
 import ConcertImgSlider from "./components/ConcertImgSlider";
 import BandBio from "./components/BandBio";
+import SpotifyPlayer from "./components/SpotifyPlayer";
 
 import { concertImages } from "./sliderData/concertImages";
 
@@ -16,6 +17,7 @@ function App() {
       <MusicVideos />
       <BandBio />
       <ConcertImgSlider slides={concertImages} />
+      <SpotifyPlayer />
     </div>
   );
 }

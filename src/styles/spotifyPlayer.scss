@@ -1,0 +1,27 @@
+.spotify-player-container {
+  @include flexCenter;
+  margin: 15em 0;
+  height: 50vh;
+  width: 100%;
+
+  .spotify-player-wrapper {
+    iframe {
+      width: 900px;
+      height: 300px;
+      border-radius: 12px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .spotify-player-container {
+    margin: 3em 0;
+
+    .spotify-player-wrapper {
+      iframe {
+        width: 400px;
+        height: 300px;
+      }
+    }
+  }
+}
