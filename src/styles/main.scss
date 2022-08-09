@@ -24,9 +24,7 @@ h2 {
 
 @media (max-width: 768px) {
   body {
-    width: 100vw;
-    height: 100vh;
-    background-size: cover;
-    background-position: center center;
+    background-size: 150%;
+    background-position-x: 50% center;
   }
 }
