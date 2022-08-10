@@ -27,8 +27,6 @@ h2 {
 @media (max-width: 768px) {
   body {
     background-image: url("../../public/img/Johnny-Harpoon-Cover3.png");
-    background-position: top;
-    background-size: contain;
-    background-repeat: repeat-y;
+    background-attachment: fixed !important;
   }
 }
