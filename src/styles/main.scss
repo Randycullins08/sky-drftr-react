@@ -26,7 +26,7 @@ h2 {
 
 @media (max-width: 768px) {
   body {
-    background-image: url("../../public/img/Johnny-Harpoon-Cover3.png");
-    background-attachment: fixed !important;
+    overflow-x: hidden;
+    overflow-y: scroll;
   }
 }
