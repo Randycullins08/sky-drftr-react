@@ -2,17 +2,30 @@
   background-image: url("../../public/img/band-promo.jpeg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  height: 90vh;
+  height: 100%;
   margin: 3em 0;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
 
   .band-bio-wrapper {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
     @include flexCenter;
-    width: 100%;
-    height: 40%;
-    font-size: 1.5em;
+    width: 80%;
+    height: 60%;
+    margin: 1em;
+    border-radius: 20px;
+
+    p {
+      text-align: center;
+      font-size: 1.2em;
+      margin: 1em;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .band-bio-container {
+    background-image: none;
   }
 }

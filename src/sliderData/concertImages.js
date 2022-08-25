@@ -70,4 +70,22 @@ export const concertImages = [
     image: "/img/nick3.jpeg",
     alt: "Nick",
   },
+
+  {
+    id: 12,
+    image: "/img/lbs-show1.jpg",
+    alt: "LBS Show",
+  },
+
+  {
+    id: 13,
+    image: "/img/lbs-show2.jpg",
+    alt: "LBS Show",
+  },
+
+  {
+    id: 14,
+    image: "/img/lbs-show3.jpg",
+    alt: "LBS Show",
+  },
 ];

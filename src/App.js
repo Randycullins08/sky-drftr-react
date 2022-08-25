@@ -9,6 +9,7 @@ import FlyerImgSlider from "./components/FlyerImgSlider";
 
 import { concertImages } from "./sliderData/concertImages";
 import { flyerImages } from "./sliderData/flyerImages";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <ConcertImgSlider slides={concertImages} />
       <SpotifyPlayer />
       <FlyerImgSlider shows={flyerImages} />
+      <Contact />
     </div>
   );
 }

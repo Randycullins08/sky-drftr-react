@@ -26,25 +26,28 @@ export default function Navbar() {
       {(toggle || screenWidth > 768) && (
         <div className="navbar-links-wrapper">
           <NavHashLink to="#home" activeClassName="active-link" smooth>
-            <h2>HOME</h2>
+            <h2 onClick={toggleNav}>HOME</h2>
           </NavHashLink>
 
           <NavHashLink to="#videos" activeClassName="active-link" smooth>
-            <h2>VIDEOS</h2>
+            <h2 onClick={toggleNav}>VIDEOS</h2>
           </NavHashLink>
 
           <NavHashLink to="#bio" activeClassName="active-link" smooth>
-            <h2>BIO</h2>
+            <h2 onClick={toggleNav}>BIO</h2>
           </NavHashLink>
 
           <NavHashLink to="#music" activeClassName="active-link" smooth>
-            <h2>MUSIC</h2>
+            <h2 onClick={toggleNav}>MUSIC</h2>
           </NavHashLink>
 
           <NavHashLink to="#shows" activeClassName="active-link" smooth>
-            <h2>SHOWS</h2>
+            <h2 onClick={toggleNav}>SHOWS</h2>
           </NavHashLink>
-          <h2>CONTACT</h2>
+
+          <NavHashLink to="#contact" activeClassName="active-link" smooth>
+            <h2 onClick={toggleNav}>CONTACT</h2>
+          </NavHashLink>
         </div>
       )}
       <i
