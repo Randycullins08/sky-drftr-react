@@ -31,9 +31,21 @@ h2 {
 
 @media (max-width: 768px) {
   body {
-    background-position: center center;
+    position: relative;
+  }
+
+  body::before {
+    content: "";
+    position: fixed;
+    z-index: -1;
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url("../../public/img/Johnny-Harpoon-Cover3.png");
+    background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: rgb(180, 76, 180);
+    background-position: center top;
   }
 }

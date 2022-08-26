@@ -42,3 +42,17 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .contact-container {
+    .email-wrapper {
+      font-size: 1em;
+    }
+
+    .social-links-wrapper {
+      .fab {
+        font-size: 1.5em;
+      }
+    }
+  }
+}
