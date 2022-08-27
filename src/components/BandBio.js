@@ -6,7 +6,7 @@ export default function BandBio() {
           <p>
             Sky DRFTR started in a dirty one bedroom apartment sometime in 2016.
             Longtime friends Laramie Lake and Ryan Cassell began throwing song
-            ideas around on an electronic drum kit, a telecaster, and. A pro
+            ideas around on an electronic drum kit, a telecaster, and a pro
             tools rig. It existed as an idea and a scattered handful of song
             demos until winter 17/18, when a new practice space and the addition
             of another lifelong friend on bass, Nick Potter. After
@@ -22,7 +22,7 @@ export default function BandBio() {
             their first album, “Johnny Harpoon”. The album contains seven songs
             that stand up on their own but are stronger when enjoyed as a single
             body of work. With influences ranging from Coheed and Cambria,
-            Thrice, Minus the bear, He is Legend, and countless other groups,
+            Thrice, Minus the bear, He is Legend, and countless other groups.
             Sky DRFTR delivers songs with powerful hooks and intricate riffs,
             complimented by strong instrumental sections and driving drums.
             Stream all of Sky DRFTRs catalogue where ever you listen to music.
